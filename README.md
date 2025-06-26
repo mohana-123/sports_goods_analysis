@@ -42,8 +42,8 @@ Average Order Value (AOV): Average amount spent by a customer per transaction.<b
 Customer Feedback Score: Average rating from customer reviews.<br>
 
 Business Impact & Insights:<br>
-Marketing Optimization: Focus marketing efforts on products with demonstrated high conversion rates, Implement seasonal promotions or personalized campaigns during peak months to capitalize on these trends. <br>
-To turn around declining views and low interaction rates, experiment with more engaging content formats, such as interactive videos or user-generated content. Additionally, boost engagement by optimizing call-to-action placement in social media and blog content, particularly during historically lower-engagement months. <br>
+Marketing Optimization: Focus marketing efforts on products with demonstrated high conversion rates, Implement seasonal promotions or personalized campaigns during peak months to capitalize on these trends. <br><br>
+To turn around declining views and low interaction rates, experiment with more engaging content formats, such as interactive videos or user-generated content. Additionally, boost engagement by optimizing call-to-action placement in social media and blog content, particularly during historically lower-engagement months. <br><br>
 Implement a feedback loop where mixed and negative reviews are analyzed to identify common issues. Develop improvement plans to address these concerns. Consider following up with dissatisfied customers to resolve issues and encourage re-rating, aiming to move average ratings closer to the higher rating targets.
 
 ### 6.	Screenshots / Demos
