@@ -1,3 +1,4 @@
+<!-- 
 # sports_goods_analysis
 
 ### 1.	Marketing Analysis of Sports Goods.
@@ -15,14 +16,14 @@ The dashboard was built using the following tools and technologies:<br>
 •	📁 File Format – .pbix for development and .png for dashboard previews.
 
 <!-- ### 4.	Data Source
-The data comes from Github repository created by @aliahmad-1987 and how it’s structured -->
+The data comes from Github repository created by @aliahmad-1987 and how it’s structured 
 
 
 ### 5.	Features / Highlights
 <!-- •	Business problem
 •	Goal of the dashboard
 •	Walk through of key visuals (briefly!)
-•	Business impact & Insights -->
+•	Business impact & Insights 
 an online retail business, is facing reduced customer engagement and conversion rates despite launching several new online marketing campaigns.
 Key Points:
 1. Reduced Customer Engagement: The number of customer interactions and engagement with the site and marketing content has declined.
@@ -47,4 +48,78 @@ To turn around declining views and low interaction rates, experiment with more e
 Implement a feedback loop where mixed and negative reviews are analyzed to identify common issues. Develop improvement plans to address these concerns. Consider following up with dissatisfied customers to resolve issues and encourage re-rating, aiming to move average ratings closer to the higher rating targets.
 
 ### 6.	Screenshots / Demos
+
+-->
+
+
+# 🏀 Sports Goods Marketing Analysis Dashboard
+
+## 📊 Project Overview
+An interactive Power BI dashboard designed to analyze marketing performance for an online sports goods retailer. The focus is on identifying high-performing campaigns and optimizing conversion rates based on user interaction, feedback, and purchase behavior.
+
+## 🎯 Purpose
+This project provides a visually engaging and data-driven analysis tool for marketing managers and stakeholders. It enables:
+- Insightful evaluation of campaign effectiveness
+- Data-backed decision-making to improve ROI
+- Recommendations based on customer behavior and feedback
+
+## ⚙️ Tech Stack
+- **Power BI Desktop** – Primary tool for visualization and dashboard design.
+- **Power Query** – Data cleaning, transformation, and reshaping.
+- **DAX (Data Analysis Expressions)** – For calculated fields, measures, KPIs, and interactivity.
+- **Data Modeling** – Logical relationship design between entities like customers, campaigns, sales, and reviews.
+- **File Format** – `.pbix` (interactive dashboard) & `.png` (dashboard snapshot).
+
+## 📁 Dataset
+(*Optional section*)  
+Data sourced from synthetic datasets tailored to represent customer activity, marketing campaign interactions, reviews, and sales.
+
+## ⭐ Key Features & Insights
+
+### Business Context:
+The company is facing:
+- Decline in customer engagement
+- Reduced conversion rates
+- High marketing spend with poor ROI
+- Lack of structured customer feedback analysis
+
+### Business Goals:
+- Identify marketing strategies yielding highest conversions
+- Discover which campaign types attract the most user engagement
+- Analyze customer feedback to guide service/product improvement
+
+### KPIs Monitored:
+- **Conversion Rate**: % of visitors who make a purchase
+- **Customer Engagement Rate**: Interactions with campaigns (clicks, shares, etc.)
+- **Average Order Value (AOV)**: Revenue per transaction
+- **Customer Feedback Score**: Rating from reviews and feedback analysis
+
+### Strategic Insights:
+- Refocus marketing budgets toward high-converting campaigns
+- Introduce interactive content to improve engagement
+- Optimize CTA placements based on seasonal trends
+- Set up a feedback loop to address negative reviews and enhance product perception
+
+## 🧠 Business Impact
+This dashboard provides actionable insights that help:
+- Boost campaign ROI
+- Improve customer satisfaction through targeted improvements
+- Support data-informed strategic decisions across marketing and product teams
+
+## 📸 Dashboard Preview
+(*Add screenshots of dashboard visuals here to help viewers understand your design and insights.*)
+
+---
+
+## 🚀 How to Use
+1. Clone the repo or download the `.pbix` file
+2. Open with Power BI Desktop
+3. Explore filters, slicers, and visual insights
+
+---
+
+## 🙌 Contributions & Feedback
+Suggestions and feedback are welcome! Feel free to raise issues or fork the repo.
+
+---
 
