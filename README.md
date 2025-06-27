@@ -70,9 +70,6 @@ This project provides a visually engaging and data-driven analysis tool for mark
 - **Data Modeling** – Logical relationship design between entities like customers, campaigns, sales, and reviews.
 - **File Format** – `.pbix` (interactive dashboard) & `.png` (dashboard snapshot).
 
-## 📁 Dataset
-(*Optional section*)  
-Data sourced from synthetic datasets tailored to represent customer activity, marketing campaign interactions, reviews, and sales.
 
 ## ⭐ Key Features & Insights
 
