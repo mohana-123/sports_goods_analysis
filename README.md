@@ -104,7 +104,17 @@ This dashboard provides actionable insights that help:
 - Support data-informed strategic decisions across marketing and product teams
 
 ## 📸 Dashboard Preview
-(*Add screenshots of dashboard visuals here to help viewers understand your design and insights.*)
+
+<img width="668" alt="home" src="https://github.com/user-attachments/assets/8c7465f8-a257-41dc-b9a1-e82946b49881" />
+
+<img width="662" alt="overview" src="https://github.com/user-attachments/assets/2cf8dbba-0273-48b9-a5f6-1499b32be2e7" />
+
+<img width="663" alt="conversion rate" src="https://github.com/user-attachments/assets/758c1afb-3195-4770-bd40-bdcd39a534d2" />
+
+<img width="662" alt="social media details" src="https://github.com/user-attachments/assets/554bd6a1-e134-4b72-be3d-1453828c1ae3" />
+
+<img width="662" alt="customer reviews" src="https://github.com/user-attachments/assets/d185d35e-96d0-4e27-bd31-3a08b02d1081" />
+
 
 ---
 
