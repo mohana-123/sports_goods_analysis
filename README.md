@@ -86,10 +86,10 @@ The company is facing:
 - Analyze customer feedback to guide service/product improvement
 
 ### KPIs Monitored:
-- **Conversion Rate**: % of visitors who make a purchase
+- **Conversion Rate**: 8% of visitors who make a purchase
 - **Customer Engagement Rate**: Interactions with campaigns (clicks, shares, etc.)
-- **Average Order Value (AOV)**: Revenue per transaction
-- **Customer Feedback Score**: Rating from reviews and feedback analysis
+- **Average Order Value (AOV)**: 200 rupees Revenue per transaction
+- **Customer Feedback Score**: Average Rating of 3.67 from reviews and feedback analysis
 
 ### Strategic Insights:
 - Refocus marketing budgets toward high-converting campaigns
