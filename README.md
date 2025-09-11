@@ -1,132 +1,163 @@
-<!-- 
-# sports_goods_analysis
+# 🏀 Sports Goods Marketing Analysis – Driving Conversions & Engagement
 
-### 1.	Marketing Analysis of Sports Goods.
-A dynamic, interactive data visualization tool built to explore a sports goods wesite, focusing on the conversion rate the company receiving through different types of marketing campaigns. 
-
-### 2.	Purpose
-sports goods analysis visualization dashboard is visually engaging and analytical Power BI report designed to help the managers and stakeholders of the company. we can explore about the various marketing campaigns implemented and which are responsible to get the good conversion rate to the company.
-
-### 3.	Tech Stack
-The dashboard was built using the following tools and technologies:<br>
-•	📊 Power BI Desktop – Main data visualization platform used for report creation.<br>
-•	📂 Power Query – Data transformation and cleaning layer for reshaping and preparing the data.<br>
-•	🧠 DAX (Data Analysis Expressions) – Used for calculated measures, dynamic visuals, and conditional logic.<br>
-•	📝 Data Modeling – Relationships established among tables (resorts, snow, and data_dictionary) to enable cross-filtering and aggregation.<br>
-•	📁 File Format – .pbix for development and .png for dashboard previews.
-
-<!-- ### 4.	Data Source
-The data comes from Github repository created by @aliahmad-1987 and how it’s structured 
-
-
-### 5.	Features / Highlights
-<!-- •	Business problem
-•	Goal of the dashboard
-•	Walk through of key visuals (briefly!)
-•	Business impact & Insights 
-an online retail business, is facing reduced customer engagement and conversion rates despite launching several new online marketing campaigns.
-Key Points:
-1. Reduced Customer Engagement: The number of customer interactions and engagement with the site and marketing content has declined.
-2. Decreased Conversion Rates: Fewer site visitors are converting into paying customers.
-3. High Marketing Expenses: Significant investments in marketing campaigns are not yielding expected returns.
-4. Need for Customer Feedback Analysis: Understanding customer opinions about products and services is crucial for improving engagement and conversions.
-
-Goal: <br>
-• Identify factors impacting the conversion rate and provide recommendations to improve it. <br>
-• Determine which types of content drive the highest engagement. <br>
-• Understand common themes in customer reviews and provide actionable insights. <br>
-
-KPI's: <br>
-Conversion Rate: Percentage of website visitors who make a purchase.<br>
-Customer Engagement Rate: Level of interaction with marketing content (clicks, likes, comments).<br>
-Average Order Value (AOV): Average amount spent by a customer per transaction.<br>
-Customer Feedback Score: Average rating from customer reviews.<br>
-
-Business Impact & Insights:<br>
-Marketing Optimization: Focus marketing efforts on products with demonstrated high conversion rates, Implement seasonal promotions or personalized campaigns during peak months to capitalize on these trends. <br><br>
-To turn around declining views and low interaction rates, experiment with more engaging content formats, such as interactive videos or user-generated content. Additionally, boost engagement by optimizing call-to-action placement in social media and blog content, particularly during historically lower-engagement months. <br><br>
-Implement a feedback loop where mixed and negative reviews are analyzed to identify common issues. Develop improvement plans to address these concerns. Consider following up with dissatisfied customers to resolve issues and encourage re-rating, aiming to move average ratings closer to the higher rating targets.
-
-### 6.	Screenshots / Demos
-
--->
-
-
-# 🏀 Sports Goods Marketing Analysis Dashboard
-
-## 📊 Project Overview
-An interactive Power BI dashboard designed to analyze marketing performance for an online sports goods retailer. The focus is on identifying high-performing campaigns and optimizing conversion rates based on user interaction, feedback, and purchase behavior.
-
-## 🎯 Purpose
-This project provides a visually engaging and data-driven analysis tool for marketing managers and stakeholders. It enables:
-- Insightful evaluation of campaign effectiveness
-- Data-backed decision-making to improve ROI
-- Recommendations based on customer behavior and feedback
-
-## ⚙️ Tech Stack
-- **Power BI Desktop** – Primary tool for visualization and dashboard design.
-- **Power Query** – Data cleaning, transformation, and reshaping.
-- **DAX (Data Analysis Expressions)** – For calculated fields, measures, KPIs, and interactivity.
-- **Data Modeling** – Logical relationship design between entities like customers, campaigns, sales, and reviews.
-- **File Format** – `.pbix` (interactive dashboard) & `.png` (dashboard snapshot).
-
-
-## ⭐ Key Features & Insights
-
-### Business Context:
-The company is facing:
-- Decline in customer engagement
-- Reduced conversion rates
-- High marketing spend with poor ROI
-- Lack of structured customer feedback analysis
-
-### Business Goals:
-- Identify marketing strategies yielding highest conversions
-- Discover which campaign types attract the most user engagement
-- Analyze customer feedback to guide service/product improvement
-
-### KPIs Monitored:
-- **Conversion Rate**: 8% of visitors who make a purchase
-- **Customer Engagement Rate**: Interactions with campaigns (clicks, shares, etc.)
-- **Average Order Value (AOV)**: 200 rupees Revenue per transaction
-- **Customer Feedback Score**: Average Rating of 3.67 from reviews and feedback analysis
-
-### Strategic Insights:
-- Refocus marketing budgets toward high-converting campaigns
-- Introduce interactive content to improve engagement
-- Optimize CTA placements based on seasonal trends
-- Set up a feedback loop to address negative reviews and enhance product perception
-
-## 🧠 Business Impact
-This dashboard provides actionable insights that help:
-- Boost campaign ROI
-- Improve customer satisfaction through targeted improvements
-- Support data-informed strategic decisions across marketing and product teams
-
-## 📸 Dashboard Preview
-
-<img width="668" alt="home" src="https://github.com/user-attachments/assets/8c7465f8-a257-41dc-b9a1-e82946b49881" />
-
-<img width="662" alt="overview" src="https://github.com/user-attachments/assets/2cf8dbba-0273-48b9-a5f6-1499b32be2e7" />
-
-<img width="663" alt="conversion rate" src="https://github.com/user-attachments/assets/758c1afb-3195-4770-bd40-bdcd39a534d2" />
-
-<img width="662" alt="social media details" src="https://github.com/user-attachments/assets/554bd6a1-e134-4b72-be3d-1453828c1ae3" />
-
-<img width="662" alt="customer reviews" src="https://github.com/user-attachments/assets/d185d35e-96d0-4e27-bd31-3a08b02d1081" />
-
+_Analyzing marketing performance and customer feedback to optimize strategies for increased conversions, higher engagement, and improved customer satisfaction._
 
 ---
 
-## 🚀 How to Use
-1. Clone the repo or download the `.pbix` file
-2. Open with Power BI Desktop
-3. Explore filters, slicers, and visual insights
+## 📌 Table of Contents
+- [Overview](#overview)
+- [Business Problem](#business-problem)
+- [Dataset](#dataset)
+- [Tools & Technologies](#tools--technologies)
+- [Project Structure](#project-structure)
+- [Data Cleaning & Preparation](#data-cleaning--preparation)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Key Findings](#key-findings)
+- [Dashboard](#dashboard)
+- [How to Run This Project](#how-to-run-this-project)
+- [Final Recommendations](#final-recommendations)
 
 ---
 
-## 🙌 Contributions & Feedback
-Suggestions and feedback are welcome! Feel free to raise issues or fork the repo.
+## Overview
+
+This project focuses on analyzing **Sports Goods marketing performance** for an online retailer.  
+The analysis identifies factors impacting **conversion rates**, **customer engagement**, and **customer satisfaction** to help refine marketing strategies.
+
+The project integrates data from marketing campaigns, customer reviews, and engagement metrics.  
+Using **Python**, **SQL**, and **Power BI**, it provides actionable insights to boost ROI and guide data-driven decision-making.
 
 ---
 
+## Business Problem
+
+The client, an online sports goods retailer, faced challenges such as:  
+- **Reduced Customer Engagement**: Declining website and social media interactions.  
+- **Decreased Conversion Rates**: Fewer visitors completing purchases despite increased marketing spend.  
+- **High Marketing Costs**: Campaigns failing to deliver expected returns.  
+- **Need for Feedback Analysis**: Lack of clear understanding of customer sentiments and pain points.
+
+> **Goal:** Provide a comprehensive analysis to improve marketing strategies, enhance engagement, and increase conversions.
+
+---
+
+## Dataset
+
+The dataset consists of three main sources:
+
+- **Marketing Campaign Data** – Ad spend, impressions, clicks, and conversions.  
+- **Customer Engagement Data** – Website visits, clicks, likes, and shares.  
+- **Customer Feedback Data** – Ratings, review text, and sentiment information.
+
+All raw data is stored in the `/data/` folder.
+
+---
+
+## Tools & Technologies
+
+- **Python** (Pandas, NumPy, NLTK (Natural Language Toolkit))  
+- **SQL** (data extraction, joins, filtering, aggregation)  
+- **Power BI** (interactive dashboards and storytelling)  
+- **Excel** (data validation and reporting)  
+- **GitHub** (version control and project hosting)
+
+---
+
+## Project Structure
+
+```
+vendor-performance-analysis/
+│
+├── README.md
+├── .gitignore
+├── requirements.txt
+├── Vendor Performance Report.pdf
+│
+├── notebooks/                  # Jupyter notebooks
+│   ├── exploratory_data_analysis.ipynb
+│   ├── vendor_performance_analysis.ipynb
+│
+├── scripts/                    # Python scripts for ingestion and processing
+│   ├── ingestion_db.py
+│   └── get_vendor_summary.py
+│
+├── dashboard/                  # Power BI dashboard file
+│   └── vendor_performance_dashboard.pbix
+```
+
+---
+
+## Data Cleaning & Preparation
+
+Steps taken:
+- Removed duplicates and irrelevant records.  
+- Standardized formats for dates, product names, and categories.  
+- Handled missing values:
+  - Imputed for numerical data.
+  - Replaced or dropped incomplete reviews.  
+- Converted review text to structured sentiment scores (positive, negative, neutral).  
+- Combined multiple sources into a unified master table.
+
+---
+
+## Exploratory Data Analysis (EDA)
+
+**Key Focus Areas:**
+
+1. **Conversion Trends:**  
+   - Highest conversion: **January (18.5%)** driven by seasonal demand and promotions.  
+   - Lowest conversion: **May (4.3%)**, signaling weak campaign effectiveness.
+
+2. **Engagement Patterns:**  
+   - Peak engagement in **February** and **July**.  
+   - Noticeable decline from **August to December**.
+
+3. **Customer Feedback:**  
+   - Average rating: **3.7** (below target of 4.0).  
+   - **Positive sentiment:** 275 reviews  
+   - **Negative sentiment:** 82 reviews  
+   - **Mixed sentiment:** 50 reviews
+
+---
+
+## Key Findings
+
+1. **High-performing products** like Ski Boots and Kayaks had strong conversions, especially during peak seasons.  
+2. **Declining engagement** in later months due to less engaging content and ineffective calls to action.  
+3. **Blog content** generated the highest views but had lower click-through rates.  
+4. **Negative reviews** mostly related to delivery delays and product quality issues.  
+5. Potential to **convert mixed experiences** into positive ones by addressing recurring complaints.
+
+---
+
+## Dashboard
+
+The Power BI dashboard provides:
+- Conversion trends by month and product.
+- Engagement metrics (views, clicks, likes).  
+- Customer feedback sentiment breakdown.  
+- Heatmaps for marketing performance.
+
+![Dashboard Preview](images/dashboard_preview.png)
+
+---
+
+## How to Run This Project
+
+1. **Clone the repository**  
+   ```bash
+   git clone https://github.com/yourusername/sports-goods-marketing-analysis.git
+
+## Final Recommendations
+
+### **Increase Conversion Rates**
+- Focus on high-performing categories with targeted promotions.  
+- Run seasonal campaigns during peak demand months.
+
+### **Enhance Engagement**
+- Introduce interactive content formats like videos and user-generated content.  
+- Optimize calls to action for social media and blogs.
+
+### **Improve Customer Satisfaction**
+- Address recurring negative feedback around delivery and quality.  
+- Build a follow-up system to resolve mixed experiences.
