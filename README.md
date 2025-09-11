@@ -138,15 +138,44 @@ The Power BI dashboard provides:
 - Customer feedback sentiment breakdown.  
 - Heatmaps for marketing performance.
 
-![Dashboard Preview](images/dashboard_preview.png)
+<img width="668" height="376" alt="home" src="https://github.com/user-attachments/assets/7e798784-d2f1-41c8-9100-5a5407879532" />
+
+
+<img width="662" height="372" alt="overview" src="https://github.com/user-attachments/assets/b6a5bc97-00d5-4ebd-abc3-c094f148e014" />
+
+
+<img width="663" height="374" alt="conversion rate" src="https://github.com/user-attachments/assets/def184ca-d3fe-476f-b070-20da9f6f57ed" />
+
+
+<img width="662" height="374" alt="social media details" src="https://github.com/user-attachments/assets/e00b1b6b-f469-48a0-b0d6-6635cd612872" />
+
+
+<img width="662" height="372" alt="customer reviews" src="https://github.com/user-attachments/assets/5e3cd931-ae1c-49de-80df-54cb5f80c147" />
+
 
 ---
 
-## How to Run This Project
+<h2><a class="anchor" id="how-to-run-this-project"></a>How to Run This Project</h2>
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/yourusername/sports-goods-marketing-analysis.git
+1. Clone the repository:
+```bash
+git clone https://github.com/mohana-123/sports_goods_analysis.git
+```
+
+3. Load the CSVs and ingest into database:
+```bash
+python scripts/ingestion_db.py
+```
+
+4. Create vendor summary table:
+```bash
+python scripts/get_vendor_summary.py
+```
+5. Open and run notebooks:
+   - `notebooks/exploratory_data_analysis.ipynb`
+   - `notebooks/vendor_performance_analysis.ipynb`
+6. Open Power BI Dashboard:
+   - `dashboard/vendor_performance_dashboard.pbix`
 
 ## Final Recommendations
 
