@@ -66,23 +66,30 @@ All raw data is stored in the `/data/` folder.
 ## Project Structure
 
 ```
-vendor-performance-analysis/
+sports_goods_analysis/
 │
 ├── README.md
-├── .gitignore
-├── requirements.txt
-├── Vendor Performance Report.pdf
+├── customer_enrich.py
+├── fact_customer_reviews_with_sentiment.csv
+├── PortfolioProject_MarketingAnalytics.bak
 │
-├── notebooks/                  # Jupyter notebooks
-│   ├── exploratory_data_analysis.ipynb
-│   ├── vendor_performance_analysis.ipynb
+├── Images/                  
+│   ├── conversion_rate.png
+│   ├── customer_reviews.png
+│   ├── home.png
+│   ├── overview.png
+│   └── social_media_details.png
 │
-├── scripts/                    # Python scripts for ingestion and processing
-│   ├── ingestion_db.py
-│   └── get_vendor_summary.py
+├── SQL_Scripts/              
+│   ├── customer_engagement.sql
+│   ├── customer_journey.sql
+│   ├── dim_customers.sql
+│   ├── dim_products.sql
+│   ├── fact_customer_reviews.sql
+│   └── product.sql
 │
-├── dashboard/                  # Power BI dashboard file
-│   └── vendor_performance_dashboard.pbix
+└── Dashboard                 # Power BI dashboard file
+    └── marketing.pbix
 ```
 
 ---
