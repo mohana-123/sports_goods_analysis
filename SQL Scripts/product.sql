@@ -24,7 +24,7 @@ select
 	ProductID,
 	ProductName,
 	Price,
-	category,
+	-- category,
 	CASE
 		WHEN Price < 50 THEN 'Low'
 		WHEN Price BETWEEN 50 AND 200 THEN 'Medium'

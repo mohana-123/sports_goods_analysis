@@ -13,5 +13,5 @@ select
 	ProductID,
 	ReviewDate,
 	Rating,
-	REPLACE(ReviewText,'  ', ' ') as ReviewText
+	REPLACE(ReviewText,'   ', ' ') as ReviewText
 from dbo.customer_reviews;
