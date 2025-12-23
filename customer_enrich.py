@@ -5,7 +5,7 @@ import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 # download the VADER lexicon for sentiment analysis if not already present
-nltk.download('vader_lexicon')
+# nltk.download('vader_lexicon')
 '''
 def fetch_data_from_sql():
     # Define the connection string with parameters for the database connection
@@ -31,7 +31,7 @@ customer_reviews_df = fetch_data_from_sql()
 def fetch_data_from_sql():
     try:
         conn_str = (
-            "mssql+pyodbc://MOHANA-LAPTOP\\SQLEXPRESS/PortfolioProject_MarketingAnalytics"
+            "mssql+pyodbc://localhost\\SQLEXPRESS/PortfolioProject_MarketingAnalytics"
             "?driver=ODBC+Driver+17+for+SQL+Server"
             "&trusted_connection=yes"
         )
@@ -58,7 +58,7 @@ sia = SentimentIntensityAnalyzer()
 def calculate_sentiment(review):
     # get the sentiment scores for the review text
     sentiment = sia.polarity_scores(review)
-    # return compound score, wwhich is most positive +ve or most negetive -ve
+    # return compound score, which is most positive +ve or most negetive -ve
     return sentiment['compound']
 
 # Define a function to categorize sentiment using both the sentiment score and the review rating
@@ -92,7 +92,7 @@ def sentiment_bucket(score):
         return '0.5 to 1.0' # Strongly positive sentiment
     elif 0.0 < score <= 0.5:
         return '0.0 to 0.5' # Mildly positive sentiment
-    elif -0.5 <= score <0.0:
+    elif -0.5 <= score < 0.0:
         return '-0.49 to 0.0' # Mildly negetive sentiment
     else:
         return '-1.0 to -0.5' # Strongly negetive sentiment
